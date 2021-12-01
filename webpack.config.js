@@ -8,7 +8,7 @@ const mfsu = new MFSU({
 
 const config = {
   entry: {
-    main: [__dirname + '/src/main.ts']
+    main: [__dirname + '/src/main.tsx']
   },
   mode: 'development',
   output: {

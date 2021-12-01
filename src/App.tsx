@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Antd from './antd';
 import FramerMotion from './framer-motion';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Antd />
@@ -11,5 +10,3 @@ function App() {
     </div>
   );
 }
-
-ReactDOM.render(<App />, document.getElementById('root'));
