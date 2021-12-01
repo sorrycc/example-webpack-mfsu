@@ -4,8 +4,15 @@ Start the antd + framer-motion project without cache in one second.
 
 ## Setup
 
+Install dependency with pnpm or yarn or npm,
+
 ```bash
 $ pnpm install
+```
+
+Start dev server,
+
+```bash
 $ pnpm dev
 <i> [webpack-dev-server] Project is running at:
 <i> [webpack-dev-server] Loopback: http://localhost:8080/
