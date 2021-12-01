@@ -2,6 +2,8 @@
 
 Start the antd + framer-motion project without cache in one second.
 
+![](https://img.alicdn.com/imgextra/i2/O1CN01k8Gjoo1P5rgMGHuuC_!!6000000001790-2-tps-1204-378.png)
+
 ## Setup
 
 Install dependency with pnpm or yarn or npm,
