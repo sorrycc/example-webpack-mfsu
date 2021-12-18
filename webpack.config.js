@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const { MFSU } = require('@umijs/mfsu');
+const path = require("path");
 
 const mfsu = new MFSU({
   implementor: webpack,
@@ -8,7 +9,7 @@ const mfsu = new MFSU({
 
 const config = {
   entry: {
-    main: [__dirname + '/src/main.tsx']
+    main: [path.resolve("./src/main.tsx").replace(/\\/g, "/")]
   },
   mode: 'development',
   output: {
